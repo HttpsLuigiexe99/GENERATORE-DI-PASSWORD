@@ -20,7 +20,7 @@ def valida_password(password):
     return re.findall(condizione_valida, password)
 
 
-if __name__ == '__main__':                                                                  #LUNHEZZA PASS
+if __name__ == '__main__':                                                                  #LUNGHEZZA PASS
     lunghezza = input('lunghezza password -> ')
     password_generata = genera_password(lunghezza)
     print()
